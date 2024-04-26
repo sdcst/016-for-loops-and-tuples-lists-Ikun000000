@@ -22,4 +22,15 @@ Enter a name: Lebron
 That name is on the list
 """
 
-nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+nameList = ("Lebron","Michale","Shaq","Dennis")
+x = str(input("Name:"))
+for i in nameList:
+    if x in nameList:
+        print(" That name is in the list")
+    else:
+        print(" Thant name is not in the list")
+    if x=="Kobe":
+        print("What can I say?")
+        break
+
+    
